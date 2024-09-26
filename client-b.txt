@@ -1,4 +1,23 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Task: Develop a mapping (walking) application to find a specific set location in 
+a large warehouse store for a customer. 
+The customer can move north, south, east, or west.
+
+create and store variable for initial location
+ask user where they want to go and store in variable
+
+inital location will always be assumed as 0,0 on x,y axis
+desiredLocation x,y - currentLocation x,y to create integers
+
+#north and east will be positive directional movement
+#south and west will be negative directional movement.
+
+create a loop for unidirectional movement
+    movement will be done by 1 axis point (east or west) from current location to 
+    desired location until even
+    then movement (north and south) will be completed until arrived
+
+send message that you've arrive at your location
 

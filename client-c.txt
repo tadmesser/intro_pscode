@@ -1,4 +1,16 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Task: You need to develop a program that counts the number of items that a 
+hardware device scans to sort for boxing packages into cases. Each package 
+scanned is two (2) products. Each case can only fit 50 product packages. 
+Write a program that prints numbers from 2 to 50, counting by twos.
 
+item = scan item number
+set inital inventory
+if item = correct number:
+    add 2 to inventory
+    while invtory fill up to 50
+        print message this box is full
+        set inventory back to zero
+        break
